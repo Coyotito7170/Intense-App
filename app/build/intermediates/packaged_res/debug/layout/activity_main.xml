@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mBtnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="59dp"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="sms"
+        app:layout_constraintEnd_toEndOf="@+id/mBtnMpesa"
+        app:layout_constraintStart_toStartOf="@+id/mBtnMpesa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnMpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="mpesa"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnCamera"
+        app:layout_constraintStart_toStartOf="@+id/mBtnCamera" />
+
+    <Button
+        android:id="@+id/mBtnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="share"
+        app:layout_constraintEnd_toEndOf="@+id/mBtnWebsite"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnWebsite" />
+
+    <Button
+        android:id="@+id/mBtnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="71dp"
+        android:text="call"
+        app:layout_constraintBaseline_toBaselineOf="@+id/mBtnMpesa"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnMpesa"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="website"
+        app:layout_constraintBaseline_toBaselineOf="@+id/mBtnCamera"
+        app:layout_constraintStart_toStartOf="@+id/mBtnCall" />
+
+    <Button
+        android:id="@+id/mBtnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="82dp"
+        android:text="camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnEmail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map"
+        app:layout_constraintBaseline_toBaselineOf="@+id/mBtnShare"
+        app:layout_constraintEnd_toEndOf="@+id/mBtnCamera" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

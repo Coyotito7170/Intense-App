@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.midmorningintense"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:5:5-69
+11-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:5:22-66
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/5df2383dcbc709522f55552ac5d5e5cb/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.midmorningintense.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/5df2383dcbc709522f55552ac5d5e5cb/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/5df2383dcbc709522f55552ac5d5e5cb/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.midmorningintense.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/5df2383dcbc709522f55552ac5d5e5cb/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/5df2383dcbc709522f55552ac5d5e5cb/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:8:5-50:19
+34        android:allowBackup="true"
+34-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:9:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-3/5df2383dcbc709522f55552ac5d5e5cb/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:10:9-65
+37        android:debuggable="true"
+38        android:fullBackupContent="@xml/backup_rules"
+38-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:11:9-54
+39        android:icon="@mipmap/ic_launcher"
+39-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:12:9-43
+40        android:label="@string/app_name"
+40-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:13:9-41
+41        android:supportsRtl="true"
+41-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:14:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.MidMorningIntense"
+43-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:15:9-55
+44        android:usesCleartextTraffic="true" >
+44-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:16:9-44
+45
+46        <!--
+47             TODO: Before you run your application, you need a Google Maps API key.
+48
+49             To get one, follow the directions here:
+50
+51                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+52
+53             Once you have your API key (it starts with "AIza"), define a new property in your
+54             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+55             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+56        -->
+57        <meta-data
+58            android:name="com.google.android.geo.API_KEY"
+58-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:31:13-58
+59            android:value="AIzaSyDM-RbyYMMn6HQMIs5fh6T_tf1FL0jJs4g" />
+59-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:32:13-44
+60
+61        <activity
+61-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:34:9-37:59
+62            android:name="com.example.midmorningintense.MapsActivity"
+62-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:35:13-41
+63            android:exported="false"
+63-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:36:13-37
+64            android:label="@string/title_activity_maps" />
+64-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:37:13-56
+65        <activity
+65-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:38:9-40:40
+66            android:name="com.example.midmorningintense.WebsiteActivity"
+66-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:39:13-44
+67            android:exported="false" />
+67-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:40:13-37
+68        <activity
+68-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:41:9-49:20
+69            android:name="com.example.midmorningintense.MainActivity"
+69-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:42:13-41
+70            android:exported="true" >
+70-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:43:13-36
+71            <intent-filter>
+71-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:44:13-48:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:45:17-69
+72-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:45:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:47:17-77
+74-->/home/emobilis/AndroidStudioProjects/MidMorningIntense/app/src/main/AndroidManifest.xml:47:27-74
+75            </intent-filter>
+76        </activity>
+77        <!-- Needs to be explicitly declared on P+ -->
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:18.0.2] /home/emobilis/.gradle/caches/transforms-3/894f206da248ac2957ce731511309a1d/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:18.0.1] /home/emobilis/.gradle/caches/transforms-3/e52d7885cc00c75d55b39d927283e3cf/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:18.0.1] /home/emobilis/.gradle/caches/transforms-3/e52d7885cc00c75d55b39d927283e3cf/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:18.0.1] /home/emobilis/.gradle/caches/transforms-3/e52d7885cc00c75d55b39d927283e3cf/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:18.0.1] /home/emobilis/.gradle/caches/transforms-3/e52d7885cc00c75d55b39d927283e3cf/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:18.0.0] /home/emobilis/.gradle/caches/transforms-3/f94800d7548630afd17398b11f1a838f/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:18.0.0] /home/emobilis/.gradle/caches/transforms-3/f94800d7548630afd17398b11f1a838f/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:18.0.0] /home/emobilis/.gradle/caches/transforms-3/f94800d7548630afd17398b11f1a838f/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.midmorningintense.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-3/baf3c3b1cbab7c314009dc4dd7f96bb9/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/8da142a8d2b09f891cdbdb73c1332847/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/8da142a8d2b09f891cdbdb73c1332847/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/emobilis/.gradle/caches/transforms-3/8da142a8d2b09f891cdbdb73c1332847/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>
